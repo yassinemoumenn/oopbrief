@@ -37,10 +37,13 @@ public class Article {
 		this.solde = solde;
 	}
 
-	public String afficher(){
-        if (solde == true) {
-            return ("(en solde)");
-        }
-        return "(non soldé)";
-    }
+	public void afficher() {
+		System.out.println("Nom de l'aritcle  : " + nom);
+		System.out.println("Prix d'article : " + prix);
+
+		if (solde = true)
+			System.out.println("(en solde)");
+		else
+			System.out.println("(non solde)");
+	}
 }
